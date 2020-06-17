@@ -1,0 +1,75 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="Time Buddy.exe" version="1.0.0.0" publicKeyToken="04f42b6fc78a5bd6" language="neutral" processorArchitecture="msil" type="win32" />
+  <description asmv2:iconFile="Ncrow-Mega-Pack-2-T-Clock.ico" xmlns="urn:schemas-microsoft-com:asm.v1" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="Time Buddy" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+    <commandLine file="Time Buddy.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!--
+          UAC Manifest Options
+          If you want to change the Windows User Account Control level replace the
+          requestedExecutionLevel node with one of the following.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+         If you want to utilize File and Registry Virtualization for backward
+         compatibility then delete the requestedExecutionLevel node.
+    -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Time Buddy.exe" size="417752">
+      <assemblyIdentity name="Time Buddy" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>G1kGC5R1FNdrHhm+IC7x9+ObD6hCTd6tjTzSom453mY=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="Ncrow-Mega-Pack-2-T-Clock.ico" size="201728">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>tSnUDtKXXM91RcL6NQ2oXUm0nb2pY0+LIiF+WNzm9AY=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Time Buddy.exe.config" size="189">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>R+Wg8QGvQVHX8T0ta/qbhH1bXkqY0fRnS3wBV3J0bN8=</dsig:DigestValue>
+    </hash>
+  </file>
+<publisherIdentity name="CN=SHANE-DESKTOP\shane" issuerKeyHash="29342a40032786811e30ddbe664d933fb624dbcd" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>mJzDsqAcxoq0KWj3RslyzLfHS9yaKwowpi3W+7YzaDg=</DigestValue></Reference></SignedInfo><SignatureValue>YBquTfpgu9ucQHJRlg+9ZquDiEPHsN9O6SRvkwMTla0cKwKPjGVoXhYV2WECC86RvAvgdBK3uFh5UbMV0ATTw8bHIkwalArlxLXiQkiumdBwyieQsSJ4IyX8THw9nsXqnLY53MW+M3Nkph5MmUMIeZ8ig+orHDTv2X1OZ7t1ac0=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>xyB6Z5z0F+hci+ught26iGEB/S/DUjL9MyVgaWt5QrpcUFiGZmUN1wR/g2N/jHT7c3t9mOH7MQMWvxsgW2K5R4kRoMKHBWEkwYbJFBL0ZcggyLQ4VRnmX9IfWrpYqNy9MwJYrHyqEzw4ywAcBk68Pyrm6MI2PVGAkCYF9hKNEAE=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="386833b6fbd62da6300a2b9adc4bc7b7cc72c946f76829b48ac61ca0b2c39c98" Description="" Url=""><as:assemblyIdentity name="Time Buddy.exe" version="1.0.0.0" publicKeyToken="04f42b6fc78a5bd6" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=SHANE-DESKTOP\shane</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>hPMbDNJdJD6Yihe133RB9s5i9as8nIZpOcu/3W43P4o=</DigestValue></Reference></SignedInfo><SignatureValue>ZYLfhuxiv6jlLexP3OKJ6UMPOuedv+CJUqZgg59NdYa6f4s6EVqS+Gt1JxU5iGgHE+MkBwaHLnCcZRPRpQoOO5lVj/TyF+r7iDRAk36P8alTXWzq40LdB37Hfi+4rbGQ6KyQR/cWYg0CzMgDlc4e1o5BBLZOrREaCa2wiAznaj8=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>xyB6Z5z0F+hci+ught26iGEB/S/DUjL9MyVgaWt5QrpcUFiGZmUN1wR/g2N/jHT7c3t9mOH7MQMWvxsgW2K5R4kRoMKHBWEkwYbJFBL0ZcggyLQ4VRnmX9IfWrpYqNy9MwJYrHyqEzw4ywAcBk68Pyrm6MI2PVGAkCYF9hKNEAE=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIB5TCCAU6gAwIBAgIQTjZ/LmwzcINPjizuM6mkpDANBgkqhkiG9w0BAQsFADAxMS8wLQYDVQQDHiYAUwBIAEEATgBFAC0ARABFAFMASwBUAE8AUABcAHMAaABhAG4AZTAeFw0yMDA2MTcxNTI3MjhaFw0yMTA2MTcyMTI3MjhaMDExLzAtBgNVBAMeJgBTAEgAQQBOAEUALQBEAEUAUwBLAFQATwBQAFwAcwBoAGEAbgBlMIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDHIHpnnPQX6FyL66CG3bqIYQH9L8NSMv0zJWBpa3lCulxQWIZmZQ3XBH+DY3+MdPtze32Y4fsxAxa/GyBbYrlHiRGgwocFYSTBhskUEvRlyCDItDhVGeZf0h9aulio3L0zAlisfKoTPDjLABwGTrw/KubowjY9UYCQJgX2Eo0QAQIDAQABMA0GCSqGSIb3DQEBCwUAA4GBAEqVdQ0V19k+czdOJ/QX7pd0QKDwZ1t054vKRNA52L+JQV65C6zUOBFmvN14Zz3jFS+dEs/Y6t0Jt8UB48EhWx+DH1mpL/DPIYTY5y2OhSRrK095NchMQpypgJSUrv5wqIzIRMq630NJtBYJr088DdRl8Pt+2rwXQIOjHqODuNKx</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>
